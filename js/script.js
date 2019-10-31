@@ -7,5 +7,7 @@
 
 
 
-// DOCUMENT READY FUNCTION BELOW
-
+$("#shoot").click(function() {
+  var userChoice = $("input").val();
+$("#userChoice").append(userChoice);
+});``
